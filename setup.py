@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
-from distutils.core import setup
+import setuptools
 
-setup(
+setuptools.setup(
     name='dmcast',
     packages=['dmcast'],
-    version='0.0.1',
+    version='0.0.3',
     license='EPL',
     description='simple chromecast utility',
     url='https://github.com/xlfe/dmcast',
